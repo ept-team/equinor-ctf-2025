@@ -12,6 +12,7 @@ The flag is located in `C:\Users\Public\flag.txt`
 
 Start with an nmap scan of the target machine.
 
+```
 Nmap scan report for ip-10-128-8-167.eu-west-1.compute.internal (10.128.8.167)
 Host is up (0.032s latency).
 Not shown: 993 filtered tcp ports (no-response)
@@ -23,6 +24,7 @@ PORT     STATE SERVICE
 1433/tcp open  ms-sql-s
 3389/tcp open  ms-wbt-server
 5985/tcp open  wsman
+```
 
 Take a look at the SMB shares.
 
@@ -63,3 +65,5 @@ EXEC xp_cmdshell 'type C:\Users\Public\flag.txt';
 ```
 
 The result is the EPT flag for the User.
+
+`EPT{sei_sandnes_e_stabilt!}`
