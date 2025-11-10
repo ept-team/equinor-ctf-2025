@@ -57,6 +57,7 @@ Steps:
  - **[CloudNotes](/writeups/web/CloudNotes)**
 	 - [big](/writeups/web/CloudNotes/big)  
  - **[shop-7](/writeups/web/shop-7)**
+	 - [big](/writeups/web/shop-7/big)  
 	 - [synapse_burnout](/writeups/web/shop-7/synapse_burnout)  
  - **[Spin-For-Flag](/writeups/web/Spin-For-Flag)**
 	 - [bootplug](/writeups/web/Spin-For-Flag/bootplug)  
@@ -142,6 +143,7 @@ Steps:
  - **[Censoring](/writeups/forensics/Censoring)**
 	 - [abyss](/writeups/forensics/Censoring/abyss)  
  - **[Insider Threat](/writeups/forensics/Insider%20Threat)**
+	 - [big](/writeups/forensics/Insider%20Threat/big)  
 	 - [bwnfools](/writeups/forensics/Insider%20Threat/bwnfools)  
  - **[Home Intrusion](/writeups/forensics/Home%20Intrusion)**
 ### pwn
