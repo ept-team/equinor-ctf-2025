@@ -147,7 +147,7 @@ if __name__ == "__main__":
 
 jole has a quite strong CPU, so we initially ran with `N=32`. After around an hour, one of the workers had actually found the coordinates at 93.8% completion. 
 
-![[Pasted image 20251111162553.png]]
+![bilde](Images/Found_Chunk.png)
 
 At this point though, the instance had restarted multiple times due to instability. With a worst-case runtime of 1 hour per coordinate, we decided to crank up the compute. jole rented a VM with 48 cores, and Zukane rented two VMs with 64 cores each (this is really cheap, costing like $1 per hour). With four strong machines running many processes in parallel, the worst-case runtime per coordinate went all the way down to ~15 minutes. Also, note that we do not need the **exact** player coordinates. Just like in Geoguessr, there is some leeway to score a perfect 5000. The real coordinates for the chunk were more than close enough.
 
@@ -159,4 +159,4 @@ One way to bypass this is to extract the bedrock layer for a chunk in another bi
 EPT{5000_p0in7s_y3t_s7il1_n0_di4mond5?_smh}
 ```
 
-![[Pasted image 20251111162533.png]]
+![bilde](Images/Game_Overview.png)
