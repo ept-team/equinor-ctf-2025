@@ -12,7 +12,7 @@ However, a closer look at encoding behavior reveals the reason for its simple re
 ## Quick Strings Check
 A quick `strings flagprinter | grep EPT` reveals our goal:
 
-![Strings Flagprinter](img.png)
+![Strings Flagprinter](img_strings.png)
 
 I have to admit I immediately thought this was a fake flag to throw us off for a moment. Always submit it anyway.
 
@@ -25,6 +25,6 @@ Since the program encodes the flag before printing it, the plaintext must exist 
 We break at the start of `encode()` and inspect the first function argument (`rdi`), which is the correct register for x86-64 binaries.  
 The `file` command confirms the binary is x86-64.
 
-![GDB Check](img_1.png)
+![GDB Check](img_gdb.png)
 
 GDB resolves the address to the `<FLAG>` symbol, meaning the flag is stored as a static global variable inside the program’s `.data` section.
