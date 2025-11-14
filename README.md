@@ -134,6 +134,7 @@ Steps:
  - **[Frozen Labyrinth](/writeups/reversing/Frozen%20Labyrinth)**
 	 - [highly-regarded](/writeups/reversing/Frozen%20Labyrinth/highly-regarded)  
  - **[Broken Mario 2](/writeups/reversing/Broken%20Mario%202)**
+	 - [Datasnok](/writeups/reversing/Broken%20Mario%202/Datasnok)  
  - **[FlagChecker](/writeups/reversing/FlagChecker)**
 	 - [B00S](/writeups/reversing/FlagChecker/B00S)  
 	 - [BaneNOR](/writeups/reversing/FlagChecker/BaneNOR)  
