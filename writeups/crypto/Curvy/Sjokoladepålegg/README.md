@@ -3,15 +3,21 @@
 **Team:** Sjokoladepålegg  
 **Category:** Crypto  
 
-## SpoilerFreeSummary
-Curvy throws three elliptic-curve puzzles at us.  
-Each `.sage` file takes 6 bytes of the flag and transforms it into an elliptic-curve point.  
-Our job is to reverse those transformations and reconstruct the flag.
+## Challenge Text
 
-## I ran everything in SageMath on WSL (Ubuntu 22.04) because the online SageMathCell kept melting. So this write up is mainly for using the local one. Thanks to readme.txt for the recommendation!
+>Still haven't gotten a good grip on elliptic curves? Here's a chance to learn!
+>Combine the solutions from each challenge, in order, to create the flag.
+
+## What This Challenge Tests
+- Understanding EC point addition/subtraction
+- Using SageMath to reverse EC transformations
+- Knowing when Pohlig–Hellman applies (smooth curve order)
+- Recognizing anomalous curves and the built-in (Nigel's) SMART attack in Sage
+
+## About The Environment
+I ran everything in SageMath on WSL (Ubuntu 22.04) because the online SageMathCell kept melting. 
+Thanks to readme.txt for the recommendation!
 [SageMath installation guide here](https://doc.sagemath.org/html/en/installation/index.html)
-
----
 
 # Introduction
 When I opened the Curvy folder, I instantly knew this was going to be one of "those" challenges. The ones where you pretend you remember ECC.
@@ -28,7 +34,7 @@ Each produces one part of the final flag, which must be concatenated as:
 ```
 <part1><part2><part3>
 ```
-# Part 1 — Ell-1 Flag
+# Part 1. Ell-1 Flag
 
 The first script (`ell-1.sage`) defines a NIST curve, takes the hidden 6-byte flag, turns it into an x-coordinate of a point `P`, generates a random point `Q`, and outputs:
 
@@ -94,16 +100,16 @@ Running it gives us the first part of the flag:
 
 ![Sage Ell-1 Flag](img_2.png)
 
-# Part 2 - Ell-2 Flag
+# Part 2. Ell-2 Flag
 
-Things get more interesting, and took me quite a while. ell-2.sage defines a curve whose order looks like this:
+Things get more interesting, and took me quite a while. The order factorization is a hint toward Pohlig–Hellman. SageMath’s builtin log() already uses it, but understanding why is part of the challenge. ell-2.sage defines a curve whose order looks like this:
 
 ```
 2^2 * 3 * 18479537^2 * 785027357 * 2045936509 *
 2067106871 * 2477515409 * 2952556279^2 * 3393346153^2
 ```
 
-Smooth order = small prime factors = a nightmare. See references.
+Smooth order = small prime factors = a nightmare. See references on the bottom.
 
 This script does:
 
@@ -141,7 +147,7 @@ Running it in Sage:
 
 ![Sage Ell-2 Flag](img_3.png)
 
-# Part 3 - Ell-3 Flag
+# Part 3. Ell-3 Flag
 
 For this one, the third script hints:
 
@@ -187,12 +193,19 @@ Now for the full flag, I spliced the scripts together and voila:
 
 ![Sage Ell-123 Full Flag](img_5.png)
 
-This was a brilliant challenge, and I was pleased to actually both try out and learn more about SageMath.
+This was a brilliant challenge, and I was pleased to both learn and try out SageMath. 
+I definitely got a tighter grip on elliptic curves after this headscratcher. 
 
 References:
 
 [SageMath installation guide here](https://doc.sagemath.org/html/en/installation/index.html)
+
 [Smooth numbers](https://en.wikipedia.org/wiki/Smooth_number)
+
 [Discrete Logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm)
+
 [Pohlig-Hellman algorithm](https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm)
-[SageMath Ecliptic Curves Documentation](https://doc.sagemath.org/html/en/reference/arithmetic_curves/index.html)
+
+[SageMath Elliptic Curves Documentation](https://doc.sagemath.org/html/en/reference/arithmetic_curves/index.html)
+
+[Nigel Smart](https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=1633&context=scripps_theses)
