@@ -118,7 +118,9 @@ Steps:
  - **[EPTBOX](/writeups/sanity/EPTBOX)**
 	 - [WinnieThePwn](/writeups/sanity/EPTBOX/WinnieThePwn)  
  - **[(in)Sanity](/writeups/sanity/(in)Sanity)**
+	 - [Norske Nøkkelsnikere](/writeups/sanity/(in)Sanity/Norske%20Nøkkelsnikere)  
  - **[Badge Flag](/writeups/sanity/Badge%20Flag)**
+	 - [Norske Nøkkelsnikere](/writeups/sanity/Badge%20Flag/Norske%20Nøkkelsnikere)  
  - **[Confirm attendance](/writeups/sanity/Confirm%20attendance)**
 	 - [bootplug](/writeups/sanity/Confirm%20attendance/bootplug)  
 ### misc
