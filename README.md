@@ -193,6 +193,7 @@ Steps:
  - **[Insider Threat](/writeups/forensics/Insider%20Threat)**
 	 - [big](/writeups/forensics/Insider%20Threat/big)  
 	 - [bwnfools](/writeups/forensics/Insider%20Threat/bwnfools)  
+	 - [mne00F](/writeups/forensics/Insider%20Threat/mne00F)  
  - **[Home Intrusion](/writeups/forensics/Home%20Intrusion)**
 	 - [Trånn Jånn](/writeups/forensics/Home%20Intrusion/Trånn%20Jånn)  
 ### pwn
