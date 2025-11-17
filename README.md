@@ -41,6 +41,7 @@ Steps:
 	 - [B00S](/writeups/web/LOUD%20CRM/B00S)  
 	 - [synapse_burnout](/writeups/web/LOUD%20CRM/synapse_burnout)  
  - **[Yarr!](/writeups/web/Yarr!)**
+	 - [Iku-toppene](/writeups/web/Yarr!/Iku-toppene)  
  - **[Of CORS I Can Help!](/writeups/web/Of%20CORS%20I%20Can%20Help!)**
 	 - [Kernel Carnage](/writeups/web/Of%20CORS%20I%20Can%20Help!/Kernel%20Carnage)  
 	 - [Norske Nøkkelsnikere](/writeups/web/Of%20CORS%20I%20Can%20Help!/Norske%20Nøkkelsnikere)  
