@@ -35,6 +35,7 @@ Steps:
 	 - [Sjokoladepålegg](/writeups/web/Hackermon/Sjokoladepålegg)  
 	 - [Norske Nøkkelsnikere](/writeups/web/Hackermon/Norske%20Nøkkelsnikere)  
 	 - [big](/writeups/web/Hackermon/big)  
+	 - [B00S](/writeups/web/Hackermon/B00S)  
  - **[LOUD CRM](/writeups/web/LOUD%20CRM)**
 	 - [Norske Nøkkelsnikere](/writeups/web/LOUD%20CRM/Norske%20Nøkkelsnikere)  
 	 - [big](/writeups/web/LOUD%20CRM/big)  
@@ -203,6 +204,7 @@ Steps:
  - **[Badge Overflow](/writeups/pwn/Badge%20Overflow)**
 	 - [RumbleInTheJungle](/writeups/pwn/Badge%20Overflow/RumbleInTheJungle)  
  - **[Stoneshop](/writeups/pwn/Stoneshop)**
+	 - [B00S](/writeups/pwn/Stoneshop/B00S)  
  - **[Veal and Car's first baby (heap) is all grown up](/writeups/pwn/Veal%20and%20Car's%20first%20baby%20(heap)%20is%20all%20grown%20up)**
 	 - [EPT](/writeups/pwn/Veal%20and%20Car's%20first%20baby%20(heap)%20is%20all%20grown%20up/EPT)  
  - **[Encryptor](/writeups/pwn/Encryptor)**
