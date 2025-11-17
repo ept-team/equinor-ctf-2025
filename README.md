@@ -104,6 +104,7 @@ Steps:
 	 - [bwnFools](/writeups/crypto/Curvy/bwnFools)  
 ### boot2root
  - **[cve-safari](/writeups/boot2root/cve-safari)**
+	 - [FesseMisk](/writeups/boot2root/cve-safari/FesseMisk)  
  - **[PotatoHead (user)](/writeups/boot2root/PotatoHead%20(user))**
 	 - [B00S](/writeups/boot2root/PotatoHead%20(user)/B00S)  
 	 - [bwnfools](/writeups/boot2root/PotatoHead%20(user)/bwnfools)  
@@ -203,8 +204,10 @@ Steps:
 	 - [ekho](/writeups/pwn/Fiftiweb/ekho)  
  - **[Badge Overflow](/writeups/pwn/Badge%20Overflow)**
 	 - [RumbleInTheJungle](/writeups/pwn/Badge%20Overflow/RumbleInTheJungle)  
+	 - [FesseMisk](/writeups/pwn/Badge%20Overflow/FesseMisk)  
  - **[Stoneshop](/writeups/pwn/Stoneshop)**
 	 - [B00S](/writeups/pwn/Stoneshop/B00S)  
+	 - [FesseMisk](/writeups/pwn/Stoneshop/FesseMisk)  
  - **[Veal and Car's first baby (heap) is all grown up](/writeups/pwn/Veal%20and%20Car's%20first%20baby%20(heap)%20is%20all%20grown%20up)**
 	 - [EPT](/writeups/pwn/Veal%20and%20Car's%20first%20baby%20(heap)%20is%20all%20grown%20up/EPT)  
  - **[Encryptor](/writeups/pwn/Encryptor)**
